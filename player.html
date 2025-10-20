@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head><meta charset="UTF-8"></head>
+<body>
+  <audio controls muted id="bgm" src="_cause I'm a pilot anywhere, cause I'm a pilot anywhere..._- speed up by pnhyy_.mp3"></audio>
+  <button id="playBtn">Play music</button>
+  <script>
+    const bgm = document.getElementById("bgm")
+    const btn = document.getElementById("playBtn")
+
+    btn.addEventListener("click", ()=>{
+      bgm.play();
+      btn.style.display();
+    })
+
+  </script>
+</body>
+</html>
