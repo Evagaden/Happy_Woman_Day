@@ -12,7 +12,9 @@
         <button id="startBtn">Bắt đầu</button>
     </div>
     
-    <iframe id="playMusic" name="playerFrame" style="display:none;" allow="autoplay; encrypted-media"></iframe>
+    <!-- <iframe id="playMusic" name="playerFrame" style="display:none;" allow="autoplay; encrypted-media"></iframe> -->
+
+    <audio controls loop id="playMusic" src="assets/_cause I'm a pilot anywhere, cause I'm a pilot anywhere..._- speed up by pnhyy_.mp3"></audio>
 
     <!-- Iframe nội dung chính -->
     <iframe id="playVideo" name="contentFrame" style="display:none;" width="100%" height="100%"></iframe>
@@ -24,7 +26,8 @@
             sBtn.style.display = "none"
             const mFrame = document.getElementById("playMusic")
             const vFrame = document.getElementById("playVideo")
-            mFrame.src = "assets/_cause I'm a pilot anywhere, cause I'm a pilot anywhere..._- speed up by pnhyy_.mp3"
+            mFrame.play()
+            // mFrame.src = "assets/_cause I'm a pilot anywhere, cause I'm a pilot anywhere..._- speed up by pnhyy_.mp3"
             vFrame.src = "matrix-pro.html"
             vFrame.style.display = "block"
         })
