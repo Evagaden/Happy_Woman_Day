@@ -507,17 +507,17 @@ body {
 /* CSS responsive cho mobile portrait */
 @media screen and (max-width: 768px) and (orientation: portrait) {
   #gift-image-left {
-    top: 30% !important;
+    top: 60% !important;
     left: 15% !important;
-    width: 140px !important;
-    height: 140px !important;
+    width: 120px !important;
+    height: 120px !important;
   }
   
   #gift-image-right {
-    top: 30% !important;
+    top: 60% !important;
     right: 15% !important;
-    width: 140px !important;
-    height: 140px !important;
+    width: 120px !important;
+    height: 120px !important;
   }
 }
 
@@ -677,6 +677,21 @@ body {
   right: 10%;
   top: 20%;
 }
+
+/* CSS responsive cho mobile portrait */
+@media screen and (max-width: 768px) and (orientation: portrait) {
+    .gift-left {
+    left: 10%;
+    top: 60%;
+  }
+
+  .gift-right {
+    right: 10%;
+    top: 60%;
+  }
+}
+
+
 
 .box {
   position: relative;
